@@ -1,0 +1,170 @@
+body {
+    background-color: #238C86;
+    font-family: Inter, Arial, sans-serif;
+    display: block;
+    margin: 8px;
+    box-sizing: inherit;
+    width: auto;
+    margin: auto;
+}
+
+
+header {
+    display: flex;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+    height: 9em;
+    
+}
+
+
+
+.hed-txt {
+    flex: 5;
+    font-size: 1.0em;
+    flex-shrink: 1;
+    color: #fff;
+    text-align: center;
+    margin-right: 80px;
+}
+.h1{
+    margin-bottom: -0.2em;
+}
+.hed-img{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #116062;
+}
+.menu {
+    flex: 5;
+}
+.site-nav {
+    display: flex;
+    margin: 0;
+    padding: 0.5em;
+    list-style-type: none;
+    border-radius: 0.2em;
+}
+.site-nav > li {
+    margin-top: 0;
+    flex-basis: 25%;
+    text-align: center;
+}
+.site-nav > li > a {
+    display: block;
+    padding: 0.5em 1em;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 2em;
+}
+.site-nav > li + li {
+    margin-left: 1.5em;
+}
+.site-nav > li > a {
+    display: block;
+    padding: 0.5em 1em;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 2em;
+}
+.welcome {
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+
+}
+.main_txt {
+    text-align: center;
+    color: yellow;
+}
+.main_txt1{
+    color: red;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3D194D;
+    position: relative;
+}
+.main_form{
+    flex-basis: 49%;
+    flex-grow: 0;
+    margin: 0.3em auto;
+    display: block;
+    border: 1px solid black;
+}
+.photo1{
+    border-radius: 33px;
+}
+.m_txt {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+.m_txt1{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 90%;
+    display: inline-block;
+}
+.photo1 {
+    float: left;
+    margin: 2em;
+    width: 90%;
+}
+.footer {
+    margin-top: 1em;
+    height: 30px;
+    width: 100%;
+    padding-top: 0.1em;
+    margin-bottom: -1em;
+    padding-bottom: 3em;
+    text-align: center;
+    color: #fff;
+    background-color: #238C86;
+    border-radius: 0.5em;
+    display: flex;
+}
+.point{
+    line-height: 25px;
+    text-align: justify;
+    list-style-image:url(img/knopka.png);
+    margin-left: 10px;
+    
+    
+}
+.point>li>a{
+    text-decoration: none;
+    color: white;
+}
+.point_1{
+    text-align:justify;
+    margin-left: 1120px;
+    list-style: none;
+    line-height: 25px;
+}
+.point_1>a{
+    display: inline;
+    margin-left: 20px;
+    
+    
+}
